@@ -1,0 +1,106 @@
+body{
+    /*background-color:rgb(40, 40, 40);*/
+    /* background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../assets/img/Background.jpg");
+    font-size: 100%;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    /*text-align: center;*/
+    background-image: linear-gradient(
+        /* rgba(25, 209, 231, 0.5),
+        rgba(243, 17, 224, 0.5) */
+        rgba(123,129,120),
+        rgba(123,129,118)
+      ), url("../assets/img/hacker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*.hero{*/
+    /* background-image: linear-gradient(
+    
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), url("../assets/img/hacker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+/*}*/
+.cuerpo{
+    display:flex;
+    position: relative;
+    width:100%;
+    height: 100%;
+    justify-content:center
+}
+.contenido{
+    display: flex;
+    position: absolute;
+    /* width:50%; */
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*.formulario .form-control*/
+/*.formulario textarea {*/
+/*    width: 100%;*/
+/*    padding: 10px 10px;*/
+/*    border: none;*/
+/*    border-radius: 18px;*/
+/*    !* contornos a diferencia de border no ocupan espacio, pueden no ser rectangulares *!*/
+/*    outline: none;*/
+/*    color: #000000;*/
+/*    !* color: white; *!*/
+/*    !* tama;o de contenedor *!*/
+/*    box-sizing:border-box;*/
+/*    font-size: 13px;*/
+/*    letter-spacing: 1px;*/
+/*    margin-bottom: 15px;*/
+/*    !*background: rgba(45, 45, 45, 0.56);*!*/
+/*    transition: 0.2s all;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
+
+/* .formulario .form-control:hover,
+.formulario textarea:hover{
+    border: 2px solid #039000;
+} */
+
+
+
+.logo{
+    
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.titulo{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*ESTILOS CARD*/
+.card{
+    width: 50rem;
+}
+
+.g-recaptcha{
+   display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:720px) {
+    .card{
+        width:30rem
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .logo{
+        width: 70%;
+
+    }
+}
