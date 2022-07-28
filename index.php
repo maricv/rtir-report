@@ -66,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="container-fluid fondo">
             <div class="row alto align-items-center justify-content-center text-center text-light">
                 <div class="col-md-8">
-                    <img src="assets/img/logo.png"></img>
+                    <img src="assets/img/logo.jpg"></img>
                     <h3 class="display-5"><strong>C5I-RTIR</strong></h3>
                     <p class="lead">En este sitio podras registrar incidentes de Seguridad de la Información</p>
                     <hr class="bg-light">
