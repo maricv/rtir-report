@@ -30,7 +30,7 @@ function nuevoTicket($grado, $nombres, $apellidos, $correo, $celular, $direccion
             'Subject'=>strtoupper($asunto),
             'Text'=>$mensaje,
             // CAMPOS PERSONALIZADOS 
-            'CF-Grado'=> strtoupper($grado),
+            // 'CF-Grado'=> strtoupper($grado),
             // 'CF-Nombres'=> strtoupper($nombres),
             // 'CF-Apellidos'=> strtoupper($apellidos),
             // 'CF-Correo Institucional'=>$correo,
